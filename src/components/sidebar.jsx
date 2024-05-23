@@ -17,11 +17,15 @@ const Sidebar = () => {
             3D.RENDER
           </h1>
         </Link>
+        <Link to="/" className="menu-item">
+          {" "}
+          Home
+        </Link>
         <Link to="/dashboard" className="menu-item">
           {" "}
           Dashboard
         </Link>
-        <Link to="/dashboard/upload" className="menu-item">
+        <Link to="/upload" className="menu-item">
           {" "}
           Upload New Model
         </Link>

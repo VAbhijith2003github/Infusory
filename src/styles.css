@@ -112,3 +112,18 @@ body::-webkit-scrollbar-track {
   display: flex;
   align-items: center;
 }
+
+.uploadinput {
+  color: rgb(255, 243, 243);
+  padding: 15px;
+  background-color: #414141;
+  border-radius: 20px;
+}
+
+.uploadbutton {
+  color: rgb(255, 243, 243);
+  padding: 15px 10px;
+  background-color: #414141;
+  border-radius: 15px;
+  margin-left: 10px;
+}
