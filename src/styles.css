@@ -127,3 +127,10 @@ body::-webkit-scrollbar-track {
   border-radius: 15px;
   margin-left: 10px;
 }
+
+td {
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
