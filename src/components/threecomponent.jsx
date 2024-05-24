@@ -10,8 +10,6 @@ function CameraControls() {
 }
 
 function ThreeComponent() {
-  const [showInfo, setShowInfo] = React.useState(false);
-
   return (
     <div className="displaydiv">
       <Canvas>

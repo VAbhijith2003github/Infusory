@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ref, uploadBytesResumable } from "firebase/storage";
 import { imageDB } from "../../firebase-config";
 import Sidebar from "../../components/sidebar";
@@ -33,6 +33,12 @@ const Upload = () => {
       }
     );
   };
+
+  useEffect(() => {
+    if (uploadProgress === 100) {
+      setDownloadURL(image.name);
+    }
+  }, [uploadProgress, image]);
 
   return (
     <>
